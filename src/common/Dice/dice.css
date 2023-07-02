@@ -1,0 +1,13 @@
+.dice {
+    width: 80px;
+    height: 80px;
+}
+
+#dice-roll {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin: 25px;
+}

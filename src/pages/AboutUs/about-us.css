@@ -1,0 +1,52 @@
+.about-us-div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 20px;
+}
+
+.about-us-title {
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.about-us-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.about-us-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    border: 3px solid #644D2D;
+    background-color: #7A6043;
+    align-self: stretch;
+}                
+
+.about-us-card-image {
+    height: 250px;
+    width: 250px;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.about-us-card-title {
+    margin: 10px;
+    border-bottom: 2px dashed black;
+
+}
+
+.about-us-card-content {
+    text-align: left;
+    align-items: center;
+    max-width: 400px;
+    margin: 10px;
+}
+
+.about-us-text {
+    align-self: center;
+}

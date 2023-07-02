@@ -1,0 +1,46 @@
+.logo {
+    max-width: 140px;
+}
+
+.image {
+    max-width: 600px;
+}
+
+.landing-title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.landing-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 20px;
+}
+
+p {
+    max-width: 700px;
+    text-align: center;
+    margin: 0;
+}
+
+#login-link {
+    border: 3px solid #644D2D;
+    background-color: #7A6043;
+    border-radius: 8px;
+    height: 50px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#login-link a {
+    text-align: center;
+}

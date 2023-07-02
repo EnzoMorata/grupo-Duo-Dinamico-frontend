@@ -1,0 +1,213 @@
+.board {
+    display: flex;
+    flex-direction: row;
+}
+
+.boardColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.celd {
+    max-width: 80px;
+    max-height: 80px;
+    border: solid 1px black;
+    z-index: 1;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+}
+
+.container {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.building {
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+    max-width: 80px;
+    max-height: 80px;
+    cursor: pointer;
+}
+
+.unit {
+    position: absolute;
+    z-index: 3;
+    top: 20px;
+    left: 15px;
+    max-width: 60px;
+    max-height: 60px;
+    cursor: pointer;
+}
+
+.player_number1 {
+    filter: sepia(100%) hue-rotate(20deg) contrast(150%);
+}
+
+.player_number2 {
+    filter: sepia(100%) hue-rotate(300deg) contrast(150%);
+}
+
+.player_number3 {
+    filter: sepia(100%) hue-rotate(120deg) contrast(150%);
+}
+
+.player_number4 {
+    filter: sepia(100%) hue-rotate(340deg) contrast(150%);
+}
+
+.player {
+    filter: sepia(0%) hue-rotate(0deg);
+    cursor: pointer;
+}
+
+.selectedObjects {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: space-around;
+    max-width: 600px;
+}
+
+.selected {
+    position: relative;
+}
+
+.actionsList {
+    padding-bottom: 60px;
+}
+
+.actionContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionName {
+    font-size: 35px; 
+    margin: 0;
+    border: solid 1px black;
+    background-color: lightblue;
+    padding: 5px;
+    cursor: pointer;
+    user-select: none;
+    width: 160px;
+    text-align: center;
+}
+
+.actionCost {
+    width: 240px;
+    text-align: start;
+}
+
+.actionsList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.triggerCeld {
+    position: absolute;
+    z-index: 4;
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    height: 80px;
+}
+
+.reachable {
+    background-color: steelblue;
+    opacity: 45%;
+}
+
+.unreachable {
+    background-color: salmon;
+    opacity: 45%;
+}
+
+.nameActualPlayer {
+    color: lightgreen;
+}
+
+.textUnion {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.goBack {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+/* .goBack button {
+    position: relative;
+    top: 10px;
+    left: 20px;
+} */
+
+.menu p {
+    font-size: 25px;
+}
+
+.menuPlayerResume {
+    margin-top: 15px;
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: darkcyan;
+}
+
+/* #nextTurn {
+    position: relative;
+    left: 365px;
+} */
+
+.menu h4 {
+    font-size: 30px;
+}
+
+/* .game {
+    background-color: #B46A20;
+} */
+
+#dice-roll {
+    margin: 10px;
+}
+
+.dice {
+    width: 70px;
+    height: 70px;
+}
+
+.menu h3 {
+    margin: 5px;
+}
+
+#placeholder {
+    cursor: default;
+    visibility: hidden;
+}

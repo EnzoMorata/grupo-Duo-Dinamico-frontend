@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Enchanted Land';
+    src: url('./../../public/assets/fonts/enchanted-land/Enchanted Land.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Kingthings Petrock';
+    src: url('./../../public/assets/fonts/kingthings-petrock/Kingthings Petrock.ttf');
+}
+
+body {
+    margin: 0;
+    font-family: 'Enchanted Land';
+    background-color: #6E6E6E;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+}
+
+p {
+    color: white;
+    font-size: 28px;
+    font-family: 'Kingthings Petrock';
+}
+
+button {
+    background-color: #D1B260;
+    border-radius: 8px;
+    border: 2px solid black;
+    font-family: 'Enchanted Land';
+    font-size: 30px;
+}
+
+button:hover {
+    background-color: white;
+    cursor: pointer
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+}
+
+a:hover {
+    color: black;
+}
+
+.image {
+    border-radius: 10px;
+}
+
+input {
+    cursor: pointer;
+}

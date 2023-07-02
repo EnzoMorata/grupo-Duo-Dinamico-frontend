@@ -1,0 +1,83 @@
+.principal-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 20px;
+    height: 500px;
+}
+
+.horizontal-div {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #7A6043;
+    width: 700px;
+    height: 300px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
+#register-form div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 6px;
+    width: 320px;
+    padding-right: 15px;
+}
+
+#login-form div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 6px;
+    width: 290px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Kingthings Petrock';
+    font-size: 25px;
+}
+
+.button {
+    width: 120px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #D1B260;
+    font-family: 'Kingthings Petrock';
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: white;
+}
+
+#login-form .button {
+    margin-top: 73.2px;
+}
+
+#line {
+    border: 1px solid darkgray;
+}
+
+label {
+    font-family: 'Kingthings Petrock';
+    font-size: 20px;
+}

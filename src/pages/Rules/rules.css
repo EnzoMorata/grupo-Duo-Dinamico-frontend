@@ -1,0 +1,22 @@
+.rules-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 20px;
+}
+.rules-body {
+    text-align: center;
+    gap: 10px;
+}
+
+.rules-title {
+    color: #D1B260;
+}
+
+.bold {
+    font-weight: bold;
+    color: #D1B260;
+    display: inline;
+}
