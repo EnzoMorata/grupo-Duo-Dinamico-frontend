@@ -23,9 +23,5 @@ dist-ssr
 *.sln
 *.sw?
 
-vite.config.js
-package.json
-yarn.lock
-
 IIC2513_2023_1_Enunciado_E1.pdf
 .env
